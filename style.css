@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+body {
+  background: #FFF;
+  color:  #121214;
+}
+
+header {
+  display: flex;
+  background-color: #065E7C;
+  margin: auto;
+  padding: 1.6rem 2.8rem;
+  gap: 2.6rem;
+}
+
+.input-wrapper input {
+    padding: 1.6rem;
+    border-radius: 0.4rem;
+    background: rgba(255, 255, 255, 0.20);
+    border: 0;
+    width: 24rem;
+  }
+
+  .input-wrapper input::placeholder {
+    font-family: 'Mulish', sans-serif;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.input-wrapper label {
+  position: absolute; 
+  opacity: 0;
+  
+}
+
+main {
+  padding: 0 2.6rem;
+}
+
+.button_icon {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.button1 {
+  width: 4.0rem;
+  height: 4.0rem;
+  background-color: #065E7C;
+  background-image: url(./assets/Button\ ok.svg);
+  border-radius: 99.9rem;
+  border: 0;
+}
+
+.button2 {
+  width: 4.0rem;
+  height: 4.0rem;
+  background-color: #065E7C;
+  background-image: url(./assets/Icon\ \(2\).svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 99.9rem;
+  border: 0;
+}
+
+main img {
+  width: 100%;
+}
+
+main h1 {
+  margin-top: 3.1rem;
+}
+
+main h1 h2 {
+color: #202024;
+font-size: 2.4rem;
+font-weight: 700;
+line-height: 160%;
+margin-top: 3.1rem;
+margin-bottom: 0.8rem;
+}
+
+main p {
+color: #121214;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 160%;
+margin-top: 3.1rem;
+}
+
+main h2 {
+  margin-top: 3.4rem;;
+}
+
+.container {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+  
+}
+.container img {
+  border-radius: 5px;
+  overflow: hidden;
+
+ }
+ 
+.container2 h3 {
+color: #202024;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 160%;
+}
+
+.container2 h4 {
+color: #121214;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 160%;
+}
+
+footer {
+background: #387E96;
+margin-top: 4.1rem;
+text-align: center;
+color: #FFF;
+font-size: 1.6rem;
+font-weight: 600;
+padding: 1.6rem;
+}
